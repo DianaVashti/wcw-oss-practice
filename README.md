@@ -21,7 +21,7 @@ First I am going to simply list the steps in bullet points and the below I have
 a more detailed description of what these steps are doing. Consider the first
 part the TL;DR  
 
-FIRST: Check out the files called `algorithmsSpecs.md` and `dataStructuresSpecs.md` to see what the options are for you to work on today. All algorithms and data-structure specs should be detailed in their respective `.md` file. Just look over at first and revisit later when you are ready to choose one. Ask for help if you need it to determine what's appropriate for your skill level. 
+FIRST: Check out the files called `algorithmsSpecs.md` and `dataStructuresSpecs.md` to see what the options are for you to work on today. All algorithms and data-structure specs should be detailed in their respective `.md` file. Just look over at first and revisit later when you are ready to choose one. Ask for help if you need it to determine what's appropriate for your skill level.
 
 THEN:
 
@@ -34,7 +34,7 @@ THEN:
 5. Once you are in the directory you want to save this project, run the command `git clone <paste the url you copied >`. Once it's finished loading your `fork` use `cd wcw-oss-practice` to navigate to this repository you just cloned.
 6. You are now in your fork! If you use atom as your text editor, you can run the command `atom .` (the period is important) to open atom with this project loaded. If you use another text editor you may have to look up the command to do this behavior.
 7. run the command `npm i` in your terminal to install all the dependencies this project uses.
-8. run this command to add a remote pointing to the original repository so the manager of this project can add the code you are contributing with ease: `git add remote upstream https://github.com/DianaVashti/wcw-oss-practice`
+8. run this command to add a remote pointing to the original repository so the manager of this project can add the code you are contributing with ease: `git remote add upstream https://github.com/DianaVashti/wcw-oss-practice`
 9. run this command: `git remote -v` in your terminal. You should see four lines, two called `origin` (one with the word `push` at the end, and one with the word `fetch` at the end) and two called `upstream` with the same key words at the end as `origin`.
 10. You are now ready to begin work...almost.
 11. Some projects include whats called a contributing guide which is basically the repository owners guidelines for how they like you to format your contributions. I am going to skip a lot of the finer details here but the main key things to check out is how they like their branches named and how to claim an `issue`.
