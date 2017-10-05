@@ -7,28 +7,33 @@ export default class Queue {
   }
 
   enqueue(elementToAdd) {
-    // your code here
+    this.elements.push(elementToAdd)
+    this.size += 1
   }
 
   dequeue() {
-    // your code here
+    // returns and removes the front element in the queue or null if the queue is empty.
+    this.size -= 1
+    return this.elements.shift()
   }
 
   front() {
-    // your code here
+    // returns the front element in queue or null if the queue is empty.
+    if(this.size < 1) return null
+    return this.elements[0]
   }
 
-
   back() {
-    // your code here
+    if(this.size < 1) return null
+    return this.elements[this.size-1]
   }
 
   isEmpty() {
-    // your code here
+    return this.size < 1 ? true : false
   }
 
   length() {
-    // your code here
+    return this.size
   }
 
 }
